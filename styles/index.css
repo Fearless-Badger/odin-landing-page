@@ -11,14 +11,29 @@ body {
 
 .box-container {
     display: flex;
-    justify-content: space-between;
-    gap: 24px;
+    justify-content: center;
+    gap: 48px;
+    padding-bottom: 80px;
+}
+
+.hero-container button {
+    background-color: #3882f6;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 4px;
+}
+
+.hero-container button a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .hero-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 475px;
 }
 
 .hero-container .hero {
@@ -45,29 +60,13 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #e5e7eb;
     font-weight: 18px;
+    padding-bottom: 64px;
 }
 
 .links ul{
@@ -91,14 +90,13 @@ body {
     padding: 0;
 }
 
-.header-container, .footer-container,
-.box-container {
+.footer-container, .header-content {
     background-color: #1F2937;
 }
 
-.header-container, .box-container,
+.header-content,
 .quote-container, .call-container,
-.footer-container {
-    padding: 12px 48px;
+.footer-container, .card-section{
+    padding: 16px 64px;
     border: 2px solid black;
 }
