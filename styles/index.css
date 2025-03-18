@@ -2,6 +2,13 @@
     font-family: Roboto, Courier, monospace;
 }
 
+.header-content,
+.quote-container, .call-container,
+.footer-container, .card-section{
+    padding: 16px 64px;
+}
+
+
 body {
     height: 100vh;
     margin: 0;
@@ -9,6 +16,35 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 96px;
+    display: flex;
+    flex-direction: column;
+}
+
+.package {
+    align-self: center;
+}
+
+.package p {
+    margin: 0;
+    padding: 0;
+}
+
+.package .quote {
+    font-size: 36px;
+    color: #1F2937;
+    height: 140;
+    width: 800px;
+    font-weight: light;
+}
+
+.package .cust {
+    font-size: 18px;
+    text-align: end;
 }
 
 .card-container {
@@ -121,9 +157,3 @@ body {
     background-color: #1F2937;
 }
 
-.header-content,
-.quote-container, .call-container,
-.footer-container, .card-section{
-    padding: 16px 64px;
-    border: 2px solid black;
-}
