@@ -17,6 +17,17 @@ body {
     justify-content: space-between;
 }
 
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container p {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
 .call-container {
     display: flex;
     justify-content: center;
